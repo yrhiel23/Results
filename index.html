@@ -29,11 +29,26 @@
             display: block;
             margin: auto;
         }
+        .button-group {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .btn {
+            margin: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="header">ThingSpeak</div>
+    
     <div class="container">
+        <!-- Button Section -->
+        <div class="button-group">
+            <button class="btn btn-outline-primary">📤 Export recent data</button>
+            <button class="btn btn-success">🔬 MATLAB Analysis</button>
+            <button class="btn btn-success">📊 MATLAB Visualization</button>
+        </div>
+
         <!-- Graph Section -->
         <div class="card">
             <div class="card-header">Data Visualization</div>
